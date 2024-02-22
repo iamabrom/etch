@@ -42,11 +42,15 @@ main#content ul#posts small {
 }
 
 main#content ul#posts li a:hover {
-    color: #21c7ff;
+    color: #ff6721;
 }
 
 main#content header#post-header div {
     color: #a7a7a7;
+}
+
+.dateTitleSeparation {
+    color:#a7a7a7
 }
 {{- if not (eq .Site.Params.dark "on") -}}
 }
