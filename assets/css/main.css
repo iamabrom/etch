@@ -39,7 +39,8 @@ header#banner h2 {
 }
 
 header#banner nav {
-    display: inline-block;
+    /* display: inline-block; */
+    float: right;
 }
 
 header#banner nav ul {
